@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# Production
+*.tgz
+*.gz
+*.zip
+*.tar
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm package-lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Next.js cache
+.next/cache/

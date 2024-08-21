@@ -1,0 +1,1745 @@
+
+    <head>
+        <link rel="dns-prefetch" href="//ninico.botble.com">
+        <link rel="dns-prefetch" href="//schema.org">
+        <link rel="dns-prefetch" href="//www.w3.org">
+        <link rel="dns-prefetch" href="//www.facebook.com">
+        <link rel="dns-prefetch" href="//twitter.com">
+        <link rel="dns-prefetch" href="//www.behance.net">
+        <link rel="dns-prefetch" href="//www.youtube.com">
+        <link rel="dns-prefetch" href="//www.linkedin.com">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+        <meta charset=utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1" name=viewport>
+        <meta name=csrf-token content="op0Fj5s8M6yXuDdZPLkaczDqXtZp6ePuq8LFYOMM">
+        <style>
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                src: url(https://ninico.botble.com/storage/fonts/e3f932e85e/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+        </style>
+        <style>
+            :root {
+                --primary-color: #d51243;
+                --primary-color-rgb: 213,18,67;
+                --primary-font: 'Jost', sans-serif;
+            }
+        </style>
+        <title>Ninico - Minimal eCommerce</title>
+        <meta name=description content="Ninico is a modern and flexible Minimal eCommerce Laravel script. This script is suited for electronic, organic and grocery store, furniture store, clothing store, hitech store and accessories store...">
+        <link rel="canonical" href="https://ninico.botble.com">
+        <meta name=robots content="index, follow">
+        <meta property="og:site_name" content="Ninico - Minimal eCommerce">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Ninico - Minimal eCommerce">
+        <meta property="og:description" content="Ninico is a modern and flexible Minimal eCommerce Laravel script. This script is suited for electronic, organic and grocery store, furniture store, clothing store, hitech store and accessories store...">
+        <meta property="og:url" content="https://ninico.botble.com">
+        <meta name=twitter:title content="Ninico - Minimal eCommerce">
+        <meta name=twitter:description content="Ninico is a modern and flexible Minimal eCommerce Laravel script. This script is suited for electronic, organic and grocery store, furniture store, clothing store, hitech store and accessories store...">
+        <link rel="shortcut icon" type=image/x-icon href="https://ninico.botble.com/storage/general/favicon.png">
+        <script type=application/ld+json>
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Ninico - Minimal eCommerce",
+                "url": "https://ninico.botble.com"
+            }</script>
+        <style>
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73odd4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73ord4jqmfxic7w.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            @font-face {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://ninico.botble.com/storage/fonts/7c2fc45563/sjostv1592zatbhpnqw73otd4jqmfxi.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+        </style>
+        <style>
+            :root {
+                --primary-font: "Jost", sans-serif;
+            }
+        </style>
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/language/css/language-public.css?v=2.2.0">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/cookie-consent/css/cookie-consent.css?v=1.0.2">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/sale-popup/css/sale-popup.css?v=1.0.0">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/newsletter/css/newsletter.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/core/base/libraries/ckeditor/content-styles.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/bootstrap/bootstrap.min.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/animate/animate.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/swiper/swiper-bundle.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/slick/slick.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/nice-select/nice-select.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/css/fontawesome.min.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/magnific-popup/magnific-popup.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/plugins/jquery-ui/jquery-ui.css">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/themes/ninico/css/theme.css?v=1.6.0">
+        <script type=application/ld+json>
+            {
+                "@context": "https:\/\/schema.org",
+                "@type": "Organization",
+                "name": "Ninico - Minimal eCommerce",
+                "url": "https:\/\/ninico.botble.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/ninico.botble.com\/storage\/general\/logo.png"
+                }
+            }</script>
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/announcement/css/announcement.css">
+        <script>
+            window.siteUrl = "https://ninico.botble.com";
+        </script>
+        <style>
+            .page_speed_1772106784 {
+                background: url('https://ninico.botble.com/storage/general/newsletter-popup.png') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .page_speed_20334912 {
+                display: none
+            }
+
+            .page_speed_1643747642 {
+                --background-color: #f3eee7;
+                --text-color: #000000;
+                --font-size: 13px;
+            }
+
+            .page_speed_672215905 {
+                justify-content: start;
+                max-width: 1200px;
+            }
+
+            .page_speed_516788916 {
+                margin-inline-end: 0.5rem}
+
+            .page_speed_1285431249 {
+                display: none;
+            }
+
+            .page_speed_2096156492 {
+                height: 16px
+            }
+
+            .page_speed_1116810447 {
+                max-height: 35px
+            }
+
+            .page_speed_1492887563 {
+            }
+
+            .page_speed_1760053804 {
+                height: 20px
+            }
+
+            .page_speed_670431883 {
+                background-color: #F8F8F8;
+                --footer-text-color: #000000;
+                --footer-text-muted-color: #686666;
+                --footer-border-color: #E0E0E0;
+            }
+
+            .page_speed_504988643 {
+                background-color: #ededed
+            }
+
+            .page_speed_1421990164 {
+                inset-inline-end: 2px
+            }
+
+            .page_speed_1810463683 {
+                background-color: #000;
+                color: #fff;
+            }
+
+            .page_speed_1896222129 {
+                max-width: 1170px;
+            }
+
+            .page_speed_1773715850 {
+                background-color: #000;
+                color: #fff;
+                border: 1px solid #fff;
+            }
+        </style>
+    </head>
+    <body id="page-home">
+        <div class="modal fade newsletter-popup" id="newsletter-popup" tabindex="-1" aria-labelledby="newsletterPopupModalLabel" aria-hidden="true" data-delay="5" title="Subscribe Now">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 d-flex flex-md-col flex-lg-row">
+                    <div class="d-none d-md-block col-6 newsletter-popup-bg page_speed_1772106784"></div>
+                    <button type=button class="btn-close position-absolute" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"></button>
+                    <div class="newsletter-popup-content">
+                        <div class="modal-header flex-column align-items-start border-0 p-0">
+                            <span class="modal-subtitle">Newsletter</span>
+                            <h5 class="modal-title fs-2" id="newsletterPopupModalLabel">Subscribe Now</h5>
+                            <p class="modal-text text-muted">Subscribe to our newsletter and get 10% off your first purchase</p>
+                        </div>
+                        <div class="modal-body p-0">
+                            <form method="POST" action="https://ninico.botble.com/newsletter/subscribe" accept-charset="UTF-8" id="botble-newsletter-forms-fronts-newsletter-form" class="bb-newsletter-popup-form dirty-check">
+                                <input name=_token type=hidden value="op0Fj5s8M6yXuDdZPLkaczDqXtZp6ePuq8LFYOMM">
+                                <div class="mb-3 position-relative">
+                                    <label for="email" class="form-label required">Email Address</label>
+                                    <input class="form-control" placeholder="Enter Your Email" required="required" name=email type=email id="email">
+                                </div>
+                                <button class="btn btn-primary" type=submit>Subscribe</button>
+                                <label class="form-check">
+                                    <input type=checkbox id="dont_show_again" name=dont_show_again class="form-check-input" value="">
+                                    <span class="form-check-label">Don't show this popup again </span>
+                                </label>
+                                <div class="newsletter-message newsletter-success-message page_speed_20334912"></div>
+                                <div class="newsletter-message newsletter-error-message page_speed_20334912"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="scroll-top scroll-to-target" data-target="html" title="back to top">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <header>
+            <div class="header-top space-bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-12 col-md-12">
+                            <div data-announcement-autoplay="1" data-announcement-autoplay-delay="5000" class="ae-anno-announcement-wrapper page_speed_1643747642">
+                                <div class="ae-anno-announcement__items page_speed_672215905">
+                                    <div class="ae-anno-announcement__controls page_speed_516788916">
+                                        <button class="ae-anno-announcement__arrow ae-anno-announcement__next-button" title="Next button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"/>
+                                            </svg>
+                                        </button>
+                                        <button class="ae-anno-announcement__arrow ae-anno-announcement__previous-button" title="Previous button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div data-announcement-id="2" class="page_speed_1285431249 ae-anno-announcement">
+                                        <div class="ae-anno-announcement__content header-welcome-text">
+                                            <div class="ae-anno-announcement__text">
+                                                <span>
+                                                    <strong>Trendy 25 silver jewelry, save up 35% off today</strong>
+                                                </span>
+                                            </div>
+                                            <a class="ae-anno-announcement__button" href="/">
+                                                Shop now <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div data-announcement-id="1" class="page_speed_1285431249 ae-anno-announcement">
+                                        <div class="ae-anno-announcement__content header-welcome-text">
+                                            <div class="ae-anno-announcement__text">
+                                                <span>
+                                                    <strong>Welcome to our international shop! Enjoy free shipping on orders $100 &amp;up</strong>
+                                                </span>
+                                            </div>
+                                            <a class="ae-anno-announcement__button" href="/">
+                                                Shop now <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div data-announcement-id="3" class="page_speed_1285431249 ae-anno-announcement">
+                                        <div class="ae-anno-announcement__content header-welcome-text">
+                                            <div class="ae-anno-announcement__text">
+                                                <span>
+                                                    <strong>Black Friday and Cyber Monday 2023 Deals for Motion Designers, grab it now!</strong>
+                                                </span>
+                                            </div>
+                                            <a class="ae-anno-announcement__button" href="/">
+                                                Shop now <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 d-none d-xl-block">
+                            <div class="headertoplag d-flex align-items-center justify-content-end">
+                                <div class="headertoplag__lang">
+                                    <ul>
+                                        <li>
+                                            <button>
+                                                USD 
+                                                <span>
+                                                    <i class="fal fa-angle-down"></i>
+                                                </span>
+                                            </button>
+                                            <ul class="header-meta__lang-submenu">
+                                                <li>
+                                                    <a href="https://ninico.botble.com/currency/switch/USD">USD</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://ninico.botble.com/currency/switch/EUR">EUR</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://ninico.botble.com/currency/switch/VND">VND</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://ninico.botble.com/currency/switch/NGN">NGN</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="headertoplag__lang">
+                                    <ul>
+                                        <li>
+                                            <button>
+                                                <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/us.svg title="English" loading="lazy" alt="English flag" class="flag page_speed_2096156492">
+                                                English 
+                                                <span>
+                                                    <i class="fal fa-angle-down"></i>
+                                                </span>
+                                            </button>
+                                            <ul class="header-meta__lang-submenu">
+                                                <li>
+                                                    <a href="https://ninico.botble.com/vi">
+                                                        <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/vn.svg title="Tiếng Việt" loading="lazy" alt="Tiếng Việt flag" class="flag page_speed_2096156492">Tiếng Việt 
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://ninico.botble.com/ar">
+                                                        <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/sa.svg title="Arabic" loading="lazy" alt="Arabic flag" class="flag page_speed_2096156492">Arabic 
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-top-social">
+                                    <a href="https://www.facebook.com" title="Facebook">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    <a href="https://twitter.com" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.behance.net" title="Behance">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com" title="Youtube">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com" title="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-area mt-30 d-none d-xl-block">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-3">
+                            <div class="logo">
+                                <a href="https://ninico.botble.com">
+                                    <img data-bb-lazy="true" class="page_speed_1116810447" src=https://ninico.botble.com/storage/general/logo.png alt="Ninico - Minimal eCommerce"></img>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-9">
+                            <div class="header-meta-info d-flex align-items-center justify-content-between">
+                                <div class="header-search-bar">
+                                    <form action="https://ninico.botble.com/products" class="position-relative form--quick-search" data-url="https://ninico.botble.com/ajax/search-products" method="GET">
+                                        <div class="search-info p-relative">
+                                            <div class="product-category-label">
+                                                <label for="product-category-select" class="form-label text text-truncate d-inline-block">All Categories</label>
+                                                <i class="fal fa-chevron-down ms-2"></i>
+                                            </div>
+                                            <select class="product-category-select" name=categories[]>
+                                                <option value="0">All Categories</option>
+                                                <option value="1">Pro Glasses</option>
+                                                <option value="2">Casual Shoes</option>
+                                                <option value="3">&nbsp;&nbsp;Winter Jacket</option>
+                                                <option value="4">&nbsp;&nbsp;New Added</option>
+                                                <option value="5">&nbsp;&nbsp;Wooden</option>
+                                                <option value="6">&nbsp;&nbsp;Furniture</option>
+                                                <option value="7">&nbsp;&nbsp;Clock</option>
+                                                <option value="8">&nbsp;&nbsp;Gifts</option>
+                                                <option value="9">&nbsp;&nbsp;Crafts</option>
+                                                <option value="10">Gift Sets</option>
+                                                <option value="11">Plastic Gifts</option>
+                                                <option value="12">Handy Cream</option>
+                                                <option value="13">Cosmetics</option>
+                                                <option value="14">Silk Accessories</option>
+                                                <option value="15">Finest Skincare Lotions</option>
+                                                <option value="16">Bags &amp;Purses</option>
+                                                <option value="17">Sunglasses</option>
+                                            </select>
+                                            <input type=text name=q class="input-search-product has-category-select" placeholder="Search products..." value="" autocomplete="off">
+                                            <button class="header-search-icon" title="search">
+                                                <i class="fal fa-search"></i>
+                                            </button>
+                                        </div>
+                                        <div class="panel--search-result"></div>
+                                    </form>
+                                </div>
+                                <div class="header-meta d-flex align-items-center ">
+                                    <div class="header-meta__social d-flex align-items-center ml-25">
+                                        <button class="header-cart p-relative tp-cart-toggle" title="cart">
+                                            <i class="fal fa-shopping-cart"></i>
+                                            <span class="tp-product-count">0</span>
+                                        </button>
+                                        <a href="https://ninico.botble.com/compare" class="header-cart p-relative">
+                                            <i class="fal fa-exchange"></i>
+                                            <span class="tp-product-compare-count">0</span>
+                                        </a>
+                                        <a href="https://ninico.botble.com/wishlist" class="header-cart p-relative">
+                                            <i class="fal fa-heart"></i>
+                                            <span class="tp-product-wishlist-count">0</span>
+                                        </a>
+                                        <a href="https://ninico.botble.com/login" title="Login">
+                                            <i class="fal fa-user"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-menu-area mt-20 d-none d-xl-block">
+                <div class="for-megamenu p-relative">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-3">
+                                <div class="cat-menu__category p-relative">
+                                    <span class="tp-cat-toggle">
+                                        <i class="fal fa-bars"></i>
+                                        Categories 
+                                    </span>
+                                    <div class="category-menu category-menu-off page_speed_1492887563">
+                                        <ul class="cat-menu__list">
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/pro-glasses">Pro Glasses </a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="https://ninico.botble.com/product-categories/casual-shoes">Casual Shoes </a>
+                                                <ul class="submenu">
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/winter-jacket">Winter Jacket</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/new-added">New Added</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/wooden">Wooden</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/furniture">Furniture</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/clock">Clock</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/gifts">Gifts</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://ninico.botble.com/product-categories/crafts">Crafts</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/gift-sets">Gift Sets </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/plastic-gifts">Plastic Gifts </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/handy-cream">Handy Cream </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/cosmetics">Cosmetics </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/silk-accessories">Silk Accessories </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/finest-skincare-lotions">Finest Skincare Lotions </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/bags-purses">Bags &amp;Purses </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/product-categories/sunglasses">Sunglasses </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-dropdown">
+                                                <a href="https://ninico.botble.com/" class="">Home </a>
+                                                <ul class="submenu">
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/" class="">Wooden Home </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/fashion-home" class="">Fashion Home </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/furniture-home" class="">Furniture Home </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/cosmetics-home" class="">Cosmetics Home </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/food-grocery-home" class="">Food Grocery </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-dropdown">
+                                                <a href="https://ninico.botble.com/" class="">Shop </a>
+                                                <ul class="submenu">
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/products" class="">Shop Grid </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/products?layout=list" class="">Shop List </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com" class="">Shop Detail </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/store-locator" class="">Shop Location </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/cart" class="">Cart </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/wishlist" class="">Wishlist </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-dropdown">
+                                                <a href="https://ninico.botble.com/" class="">Pages </a>
+                                                <ul class="submenu">
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/orders/tracking" class="">Order Tracking </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/about" class="">About </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/register" class="">Sign up </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/login" class="">Login </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/404" class="">404 / Error </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/coming-soon" class="">Coming soon </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-dropdown">
+                                                <a href="https://ninico.botble.com/" class="">Blog </a>
+                                                <ul class="submenu">
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/blog" class="">Blog </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="https://ninico.botble.com/blog/4-expert-tips-on-how-to-choose-the-right-mens-wallet" class="">Blog Detail </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/contact" class="">Contact </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="menu-contact">
+                                    <ul>
+                                        <li>
+                                            <div class="menu-contact__item">
+                                                <div class="menu-contact__icon">
+                                                    <i class="fal fa-phone-alt"></i>
+                                                </div>
+                                                <div class="menu-contact__info">
+                                                    <a href="tel:908. 408. 501. 89">908. 408. 501. 89</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="header-sticky" class="logo-area tp-sticky-one mainmenu-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-3">
+                        <div class="logo">
+                            <a href="https://ninico.botble.com">
+                                <img data-bb-lazy="true" class="page_speed_1116810447" src=https://ninico.botble.com/storage/general/logo.png alt="Ninico - Minimal eCommerce"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-9">
+                        <div class="header-meta-info d-flex align-items-center justify-content-between">
+                            <div class="header-search-bar">
+                                <form action="https://ninico.botble.com/products" class="position-relative form--quick-search" data-url="https://ninico.botble.com/ajax/search-products" method="GET">
+                                    <div class="search-info p-relative">
+                                        <div class="product-category-label">
+                                            <label for="product-category-select" class="form-label text text-truncate d-inline-block">All Categories</label>
+                                            <i class="fal fa-chevron-down ms-2"></i>
+                                        </div>
+                                        <select class="product-category-select" name=categories[]>
+                                            <option value="0">All Categories</option>
+                                            <option value="1">Pro Glasses</option>
+                                            <option value="2">Casual Shoes</option>
+                                            <option value="3">&nbsp;&nbsp;Winter Jacket</option>
+                                            <option value="4">&nbsp;&nbsp;New Added</option>
+                                            <option value="5">&nbsp;&nbsp;Wooden</option>
+                                            <option value="6">&nbsp;&nbsp;Furniture</option>
+                                            <option value="7">&nbsp;&nbsp;Clock</option>
+                                            <option value="8">&nbsp;&nbsp;Gifts</option>
+                                            <option value="9">&nbsp;&nbsp;Crafts</option>
+                                            <option value="10">Gift Sets</option>
+                                            <option value="11">Plastic Gifts</option>
+                                            <option value="12">Handy Cream</option>
+                                            <option value="13">Cosmetics</option>
+                                            <option value="14">Silk Accessories</option>
+                                            <option value="15">Finest Skincare Lotions</option>
+                                            <option value="16">Bags &amp;Purses</option>
+                                            <option value="17">Sunglasses</option>
+                                        </select>
+                                        <input type=text name=q class="input-search-product has-category-select" placeholder="Search products..." value="" autocomplete="off">
+                                        <button class="header-search-icon" title="search">
+                                            <i class="fal fa-search"></i>
+                                        </button>
+                                    </div>
+                                    <div class="panel--search-result"></div>
+                                </form>
+                            </div>
+                            <div class="header-meta d-flex align-items-center ">
+                                <div class="header-meta__social d-flex align-items-center ml-25">
+                                    <button class="header-cart p-relative tp-cart-toggle" title="cart">
+                                        <i class="fal fa-shopping-cart"></i>
+                                        <span class="tp-product-count">0</span>
+                                    </button>
+                                    <a href="https://ninico.botble.com/compare" class="header-cart p-relative">
+                                        <i class="fal fa-exchange"></i>
+                                        <span class="tp-product-compare-count">0</span>
+                                    </a>
+                                    <a href="https://ninico.botble.com/wishlist" class="header-cart p-relative">
+                                        <i class="fal fa-heart"></i>
+                                        <span class="tp-product-wishlist-count">0</span>
+                                    </a>
+                                    <a href="https://ninico.botble.com/login" title="Login">
+                                        <i class="fal fa-user"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-tab-sticky" class="tp-md-lg-header d-none d-md-block d-xl-none pt-30 pb-30">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 d-flex align-items-center">
+                        <div class="flex-auto header-canvas">
+                            <button class="tp-menu-toggle" title="open">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="logo">
+                            <a href="https://ninico.botble.com">
+                                <img data-bb-lazy="true" class="page_speed_1116810447" src=https://ninico.botble.com/storage/general/logo.png alt="Ninico - Minimal eCommerce"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="header-meta-info d-flex align-items-center justify-content-between">
+                            <div class="header-search-bar">
+                                <form action="https://ninico.botble.com/products" class="position-relative form--quick-search" data-url="https://ninico.botble.com/ajax/search-products" method="GET">
+                                    <div class="search-info p-relative">
+                                        <div class="product-category-label">
+                                            <label for="product-category-select" class="form-label text text-truncate d-inline-block">All Categories</label>
+                                            <i class="fal fa-chevron-down ms-2"></i>
+                                        </div>
+                                        <select class="product-category-select" name=categories[]>
+                                            <option value="0">All Categories</option>
+                                            <option value="1">Pro Glasses</option>
+                                            <option value="2">Casual Shoes</option>
+                                            <option value="3">&nbsp;&nbsp;Winter Jacket</option>
+                                            <option value="4">&nbsp;&nbsp;New Added</option>
+                                            <option value="5">&nbsp;&nbsp;Wooden</option>
+                                            <option value="6">&nbsp;&nbsp;Furniture</option>
+                                            <option value="7">&nbsp;&nbsp;Clock</option>
+                                            <option value="8">&nbsp;&nbsp;Gifts</option>
+                                            <option value="9">&nbsp;&nbsp;Crafts</option>
+                                            <option value="10">Gift Sets</option>
+                                            <option value="11">Plastic Gifts</option>
+                                            <option value="12">Handy Cream</option>
+                                            <option value="13">Cosmetics</option>
+                                            <option value="14">Silk Accessories</option>
+                                            <option value="15">Finest Skincare Lotions</option>
+                                            <option value="16">Bags &amp;Purses</option>
+                                            <option value="17">Sunglasses</option>
+                                        </select>
+                                        <input type=text name=q class="input-search-product has-category-select" placeholder="Search products..." value="" autocomplete="off">
+                                        <button class="header-search-icon" title="search">
+                                            <i class="fal fa-search"></i>
+                                        </button>
+                                    </div>
+                                    <div class="panel--search-result"></div>
+                                </form>
+                            </div>
+                            <div class="header-meta__social d-flex align-items-center ml-25">
+                                <button class="header-cart p-relative tp-cart-toggle" title="search">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    <span class="tp-product-count">0</span>
+                                </button>
+                                <a href="https://ninico.botble.com/compare" class="header-cart p-relative">
+                                    <i class="fal fa-exchange"></i>
+                                    <span class="tp-product-compare-count">0</span>
+                                </a>
+                                <a href="https://ninico.botble.com/login" title="Login">
+                                    <i class="fal fa-user"></i>
+                                </a>
+                                <a href="https://ninico.botble.com/wishlist">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-mob-sticky" class="tp-md-lg-header d-md-none pt-20 pb-20 ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-3 d-flex align-items-center">
+                        <div class="flex-auto header-canvas">
+                            <button class="tp-menu-toggle" title="open">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-center">
+                            <div class="logo">
+                                <a href="https://ninico.botble.com">
+                                    <img data-bb-lazy="true" class="page_speed_1116810447" src=https://ninico.botble.com/storage/general/logo.png alt="Ninico - Minimal eCommerce"></img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="header-meta-info d-flex align-items-center justify-content-end ml-25">
+                            <button class="header-cart p-relative tp-search-sidebar-toggle" title="search">
+                                <i class="fal fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tpsideinfo">
+            <button class="tpsideinfo__close">
+                Close <i class="ml-10 fal fa-times"></i>
+            </button>
+            <div class="tpsideinfo__nabtab mb-4 mt-30">
+                <div class="mobile-menu-container">
+                    <div class="mobile-menu-bar mb-10">
+                        <nav class="mobile-menu-nav">
+                            <ul>
+                                <li class="has-dropdown">
+                                    <a href="https://ninico.botble.com/">
+                                        <span class="title">Home</span>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/" class="">Wooden Home </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/fashion-home" class="">Fashion Home </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/furniture-home" class="">Furniture Home </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/cosmetics-home" class="">Cosmetics Home </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/food-grocery-home" class="">Food Grocery </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="https://ninico.botble.com/">
+                                        <span class="title">Shop</span>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/products" class="">Shop Grid </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/products?layout=list" class="">Shop List </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com" class="">Shop Detail </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/store-locator" class="">Shop Location </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/cart" class="">Cart </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/wishlist" class="">Wishlist </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="https://ninico.botble.com/">
+                                        <span class="title">Pages</span>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/orders/tracking" class="">Order Tracking </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/about" class="">About </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/register" class="">Sign up </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/login" class="">Login </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/404" class="">404 / Error </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/coming-soon" class="">Coming soon </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="https://ninico.botble.com/">
+                                        <span class="title">Blog</span>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/blog" class="">Blog </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="https://ninico.botble.com/blog/4-expert-tips-on-how-to-choose-the-right-mens-wallet" class="">Blog Detail </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/contact">
+                                        <span class="title">Contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="tpsideinfo__wishlist-link">
+                <a href="https://ninico.botble.com/compare" class="header-cart d-block p-relative">
+                    <i class="fal fa-exchange"></i>
+                    Compare Products <span class="tp-product-compare-count">0</span>
+                </a>
+            </div>
+            <div class="tpsideinfo__wishlist-link">
+                <a href="https://ninico.botble.com/orders/tracking">
+                    <i class="fal fa-truck"></i>
+                    Order Tracking 
+                </a>
+            </div>
+            <div class="tpsideinfo__account-link">
+                <a href="https://ninico.botble.com/login" title="Login">
+                    <i class="fal fa-user"></i>
+                    Login / Register
+                </a>
+            </div>
+            <div id="navbarSupportedContent" class="tpsideinfo__switcher navbar-collapse collapse show mb-4 page_speed_1492887563">
+                <ul class="mb-2 navbar-nav me-auto mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="me-2">
+                                <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/us.svg title="English" loading="lazy" alt="English flag" class="flag page_speed_1760053804">
+                            </span>
+                            English 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/vi">
+                                    <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/vn.svg title="Tiếng Việt" loading="lazy" alt="Tiếng Việt flag" class="flag page_speed_2096156492">Tiếng Việt 
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/ar">
+                                    <img src=https://ninico.botble.com/vendor/core/core/base/img/flags/sa.svg title="Arabic" loading="lazy" alt="Arabic flag" class="flag page_speed_2096156492">Arabic 
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-usd-circle"></i>
+                            USD 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/currency/switch/USD">USD</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/currency/switch/EUR">EUR</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/currency/switch/VND">VND</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://ninico.botble.com/currency/switch/NGN">NGN</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="body-overlay"></div>
+        <div class="tpcartinfo tp-cart-info-area p-relative">
+            <button class="tpcart__close" title="close">
+                <i class="fal fa-times"></i>
+            </button>
+            <div class="tpcart">
+                <h4 class="tpcart__title">Your Cart</h4>
+                <div class="tpcart__product">
+                    <div class="tpcart__product-list">
+                        <ul>
+                            <li class="text-center small text-muted">Your cart is empty!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center tpcart__free-shipping">
+                    <span>
+                        Free shipping for orders <b>under 10km</b>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="tpsideinfo tpsidecategories">
+            <button class="tpsideinfo__close">
+                Close <i class="ml-10 fal fa-times"></i>
+            </button>
+            <div class="tpsideinfo__nabtab mt-30 mb-4">
+                <div class="mobile-menu-container">
+                    <div class="mobile-menu-bar">
+                        <nav class="mobile-menu-nav tpsidebar-categories">
+                            <ul>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/pro-glasses">Pro Glasses </a>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="https://ninico.botble.com/product-categories/casual-shoes">Casual Shoes </a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/winter-jacket">Winter Jacket</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/new-added">New Added</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/wooden">Wooden</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/furniture">Furniture</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/clock">Clock</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/gifts">Gifts</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ninico.botble.com/product-categories/crafts">Crafts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/gift-sets">Gift Sets </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/plastic-gifts">Plastic Gifts </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/handy-cream">Handy Cream </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/cosmetics">Cosmetics </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/silk-accessories">Silk Accessories </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/finest-skincare-lotions">Finest Skincare Lotions </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/bags-purses">Bags &amp;Purses </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://ninico.botble.com/product-categories/sunglasses">Sunglasses </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tpsideinfo tpsidesearch">
+            <button class="tpsideinfo__close">
+                Close <i class="ml-10 fal fa-times"></i>
+            </button>
+            <div class="text-center tpsideinfo__search pt-35">
+                <span class="mb-20 tpsideinfo__search-title">What Are You Looking For?</span>
+                <form action="https://ninico.botble.com/products" class="position-relative form--quick-search" data-url="https://ninico.botble.com/ajax/search-products" method="GET">
+                    <input type=text name=q class="input-search-product" placeholder="Search Products..." value="" autocomplete="off">
+                    <button title="search">
+                        <i class="fal fa-search"></i>
+                    </button>
+                    <div class="panel--search-result"></div>
+                </form>
+            </div>
+        </div>
+        <div class="cartbody-overlay"></div>
+        <main>
+            <h1 class="d-none">Ninico - Minimal eCommerce</h1>
+            <div class="ck-content">
+                <section class="slider-area pb-25">
+                    <div class="container">
+                        <div class="row justify-content-xl-end">
+                            <div class="col-xl-9 col-xxl-7 col-lg-9">
+                                <div class="tp-slider-area p-relative">
+                                    <div class="swiper-container slider-active">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="tp-slide-item">
+                                                    <div class="tp-slide-item__content">
+                                                        <h4 class="tp-slide-item__sub-title">Accessories</h4>
+                                                        <h3 class="tp-slide-item__title mb-25">
+                                                            Up To <i>40% Off</i>
+                                                            latest Creations
+                                                        </h3>
+                                                        <a class="tp-slide-item__slide-btn tp-btn" href="/products">
+                                                            Shop Now <i class="fal fa-long-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tp-slide-item__img">
+                                                        <picture>
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-1.jpg" media="(min-width: 1200px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-1.jpg" media="(min-width: 768px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-1.jpg" media="(max-width: 767px)">
+                                                            <img data-bb-lazy="true" loading="eager" src=https://ninico.botble.com/storage/sliders/banner-1.jpg alt="Up To 40% Off latest Creations"></img>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="tp-slide-item">
+                                                    <div class="tp-slide-item__content">
+                                                        <h4 class="tp-slide-item__sub-title">Accessories</h4>
+                                                        <h3 class="tp-slide-item__title mb-25">
+                                                            Up To <i>40% Off</i>
+                                                            latest Creations
+                                                        </h3>
+                                                        <a class="tp-slide-item__slide-btn tp-btn" href="/products">
+                                                            Shop Now <i class="fal fa-long-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tp-slide-item__img">
+                                                        <picture>
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-2.jpg" media="(min-width: 1200px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-2.jpg" media="(min-width: 768px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-2.jpg" media="(max-width: 767px)">
+                                                            <img data-bb-lazy="true" loading="eager" src=https://ninico.botble.com/storage/sliders/banner-2.jpg alt="Up To 40% Off latest Creations"></img>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="tp-slide-item">
+                                                    <div class="tp-slide-item__content">
+                                                        <h4 class="tp-slide-item__sub-title">Accessories</h4>
+                                                        <h3 class="tp-slide-item__title mb-25">
+                                                            Up To <i>40% Off</i>
+                                                            latest Creations
+                                                        </h3>
+                                                        <a class="tp-slide-item__slide-btn tp-btn" href="/products">
+                                                            Shop Now <i class="fal fa-long-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tp-slide-item__img">
+                                                        <picture>
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-3.jpg" media="(min-width: 1200px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-3.jpg" media="(min-width: 768px)">
+                                                            <source srcset="https://ninico.botble.com/storage/sliders/banner-3.jpg" media="(max-width: 767px)">
+                                                            <img data-bb-lazy="true" loading="eager" src=https://ninico.botble.com/storage/sliders/banner-3.jpg alt="Up To 40% Off latest Creations"></img>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-xxl-3 col-lg-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-6">
+                                        <div class="tpslider-banner tp-slider-sm-banner mb-30">
+                                            <a href="/products">
+                                                <div class="tpslider-banner__img">
+                                                    <img src=https://ninico.botble.com/storage/sliders/banner-slider-01.jpg alt="New Modern &amp; Stylist &lt;br&gt; Crafts">
+                                                    <div class="tpslider-banner__content">
+                                                        <h4 class="tpslider-banner__title">
+                                                            New Modern &amp;Stylist <br>Crafts
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6">
+                                        <div class="tpslider-banner">
+                                            <a href="/products">
+                                                <div class="tpslider-banner__img">
+                                                    <img src=https://ninico.botble.com/storage/sliders/banner-slider-02.jpg alt="Popular Energy with our &lt;br&gt; newest collection">
+                                                    <div class="tpslider-banner__content">
+                                                        <h4 class="tpslider-banner__title">
+                                                            Popular Energy with our <br>newest collection
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <style>
+                    .shortcode-lazy-loading {
+                        position: relative;
+                        min-height: 12rem;
+                    }
+
+                    .loading-spinner {
+                        align-items: center;
+                        background: hsla(0, 0%, 100%, 0.5);
+                        display: flex;
+                        height: 100%;
+                        inset-inline-start: 0;
+                        justify-content: center;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        z-index: 1;
+                        &:after {
+                            animation: loading-spinner-rotation 0.5s linear infinite;
+                            border-color: var(--primary-color) transparent var(--primary-color) transparent;
+                            border-radius: 50%;
+                            border-style: solid;
+                            border-width: 1px;
+                            content: ' ';
+                            display: block;
+                            height: 40px;
+                            position: absolute;
+                            top: calc(50% - 20px);
+                            width: 40px;
+                            z-index: 1;
+                        }
+                    }
+
+                    @keyframes loading-spinner-rotation {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }
+                </style>
+                <div class="shortcode-lazy-loading" data-name="product-categories" data-attributes="{&quot;title&quot;:&quot;Top &lt;span&gt;Categories&lt;\/span&gt;&quot;,&quot;category_ids&quot;:&quot;10,11,12,13,14,15&quot;,&quot;style&quot;:&quot;wooden&quot;}">
+                    <div class="loading-spinner"></div>
+                </div>
+                <div class="shortcode-lazy-loading" data-name="products" data-attributes="{&quot;style&quot;:&quot;wooden&quot;,&quot;title&quot;:&quot;Popular &lt;span&gt;Products&lt;\/span&gt;&quot;,&quot;limit&quot;:&quot;10&quot;}">
+                    <div class="loading-spinner"></div>
+                </div>
+                <div class="shortcode-lazy-loading" data-name="deal-product" data-attributes="{&quot;flash_sale_id&quot;:&quot;1&quot;,&quot;style&quot;:&quot;wooden&quot;}">
+                    <div class="loading-spinner"></div>
+                </div>
+                <div class="shortcode-lazy-loading" data-name="gallery" data-attributes="{&quot;title&quot;:&quot;ninico-shop&quot;,&quot;limit&quot;:&quot;6&quot;,&quot;subtitle&quot;:&quot;Follow On&quot;}">
+                    <div class="loading-spinner"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-area pt-65 page_speed_670431883">
+                <div class="container">
+                    <div class="main-footer pb-15 mb-30">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="footer-widget footer-col-1 mb-40">
+                                    <div class="footer-logo mb-30"></div>
+                                    <div class="footer-content">
+                                        <div>Elegant pink origami design three dimensional view and decoration co-exist. Great for adding a decorative touch to any room’s decor.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="footer-widget footer-col-2 ml-30 mb-40">
+                                    <h4 class="footer-widget__title mb-30">Information</h4>
+                                    <div class="footer-widget__links">
+                                        <ul>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Custom Service">Custom Service </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="FAQs">FAQs </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Order Tracking">Order Tracking </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Contacts">Contacts </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Events">Events </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="footer-widget footer-col-2 ml-30 mb-40">
+                                    <h4 class="footer-widget__title mb-30">My Account</h4>
+                                    <div class="footer-widget__links">
+                                        <ul>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Delivery Information">Delivery Information </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Privacy Policy">Privacy Policy </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Discount">Discount </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Custom Service">Custom Service </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://ninico.botble.com/" title="Terms &amp; Condition">Terms &amp;Condition </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="footer-widget footer-col-2 ml-30 mb-40">
+                                    <h4 class="footer-widget__title mb-30">Social Network</h4>
+                                    <div class="footer-widget__links">
+                                        <ul>
+                                            <li class="">
+                                                <a href="#" title="Facebook">
+                                                    <i class="fab fa-facebook me-1"></i>
+                                                    Facebook 
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" title="Dribble">
+                                                    <i class="fab fa-dribbble me-1"></i>
+                                                    Dribble 
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" title="Twitter">
+                                                    <i class="fab fa-twitter me-1"></i>
+                                                    Twitter 
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" title="Behance">
+                                                    <i class="fab fa-behance me-1"></i>
+                                                    Behance 
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" title="Youtube">
+                                                    <i class="fab fa-youtube me-1"></i>
+                                                    Youtube 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="footer-widget footer-col-5 mb-40">
+                                    <h4 class="footer-widget__title mb-30">Get Newsletter</h4>
+                                    <p>Get on the list and get 10% off your first order!</p>
+                                    <div class="footer-widget__newsletter">
+                                        <form method="POST" action="https://ninico.botble.com/newsletter/subscribe" accept-charset="UTF-8" id="botble-newsletter-forms-fronts-newsletter-form" class="subscribe-form newsletter-form dirty-check">
+                                            <input name=_token type=hidden value="op0Fj5s8M6yXuDdZPLkaczDqXtZp6ePuq8LFYOMM">
+                                            <div class="input-group mb-3">
+                                                <input class="form-control" placeholder="Enter Your Email" id="newsletter-email" required="required" name=email type=email>
+                                            </div>
+                                            <div class="newsletter-message newsletter-success-message page_speed_20334912"></div>
+                                            <div class="newsletter-message newsletter-error-message page_speed_20334912"></div>
+                                            <button class="footer-widget__fw-news-btn tpsecondary-btn" type=submit>
+                                                Subscribe Now<i class="fal fa-long-arrow-right"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-cta pb-20">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-xl-6 col-lg-4 col-md-4 col-sm-6">
+                                <div class="footer-cta__contact">
+                                    <div class="footer-cta__icon">
+                                        <i class="far fa-phone-alt"></i>
+                                    </div>
+                                    <div class="footer-cta__text">
+                                        <a href="tel:980. 029. 666. 99">980. 029. 666. 99</a>
+                                        <span>Working 8:00 - 22:00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-8 col-md-8 col-sm-6">
+                                <div class="footer-cta__source">
+                                    <div class="footer-cta__source-content">
+                                        <h4 class="footer-cta__source-title">Download App on Mobile</h4>
+                                        <p>15% discount on your first purchase</p>
+                                    </div>
+                                    <div class="footer-cta__source-thumb">
+                                        <a href="#">
+                                            <img src=https://ninico.botble.com/storage/general/f-app.jpg alt="apple">
+                                        </a>
+                                        <a href="#">
+                                            <img src=https://ninico.botble.com/storage/general/f-google.jpg alt="google">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright page_speed_504988643">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7 col-md-5 col-sm-12">
+                                <div class="footer-copyright__content d-flex align-items-center h-100">
+                                    <span>Copyright 2024 © Ninico. All rights reserved. Powered by Botble. </span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-5 col-md-7 col-sm-12">
+                                <div class="footer-copyright__brand">
+                                    <a href="/">
+                                        <img data-bb-lazy="true" loading="lazy" src=https://ninico.botble.com/storage/general/f-brand-icon-01.png alt="Ninico - Minimal eCommerce"></img>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="navigation-bar">
+            <ul class="navigation-bar__list">
+                <li>
+                    <a href="https://ninico.botble.com" class="text-truncate" title="Home">
+                        <i class="fal fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a role="button" href="javascript:void(0)" class="tp-categories-sidebar-toggle text-truncate" title="Categories">
+                        <i class="fal fa-list"></i>
+                        <span>Categories</span>
+                    </a>
+                </li>
+                <li>
+                    <a role="button" href="javascript:void(0)" class="tp-cart-toggle text-truncate" title="Cart">
+                        <div class="header-cart p-relative">
+                            <i class="fal fa-shopping-cart"></i>
+                            <span class="tp-product-count text-white">0</span>
+                        </div>
+                        <span>Cart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ninico.botble.com/wishlist" class="text-truncate" title="Wishlist">
+                        <div class="header-cart p-relative">
+                            <i class="fal fa-heart"></i>
+                            <span class="tp-product-count tp-product-wishlist-count text-white page_speed_1421990164">0</span>
+                        </div>
+                        <span>Wishlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ninico.botble.com/customer/overview" class="text-truncate" title="Account">
+                        <i class="fal fa-user"></i>
+                        <span>Account</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            'use strict';
+            window.trans = {};
+            window.siteConfig = {};
+            window.currencies = {
+                "display_big_money": false,
+                "billion": "billion",
+                "million": "million",
+                "is_prefix_symbol": true,
+                "symbol": "$",
+                "title": "USD",
+                "decimal_separator": ".",
+                "thousands_separator": ",",
+                "number_after_dot": 2,
+                "show_symbol_or_title": true
+            };
+            siteConfig.ajaxCart = 'https://ninico.botble.com/ajax/cart';
+            siteConfig.cartUrl = 'https://ninico.botble.com/cart';
+        </script>
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/simple-slider/libraries/owl-carousel/owl.carousel.css?v=1.0.2">
+        <link media="all" type=text/css rel="stylesheet" href="https://ninico.botble.com/vendor/core/plugins/simple-slider/css/simple-slider.css?v=1.0.2">
+        <script data-pagespeed-no-defer="1" src=https://ninico.botble.com/themes/ninico/plugins/jquery/jquery-3.7.1.min.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/waypoints.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/bootstrap/bootstrap.bundle.min.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/swiper/swiper-bundle.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/slick/slick.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/magnific-popup/magnific-popup.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/nice-select/nice-select.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/wow.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/isotope-pkgd.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/imagesloaded-pkgd.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/plugins/jquery-ui/jquery-ui.js></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/app.js?v= 1.6.0></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/theme.js?v= 1.6.0></script>
+        <script src=https://ninico.botble.com/themes/ninico/js/ecommerce.js?v= 1.6.0></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/simple-slider/libraries/owl-carousel/owl.carousel.js?v= 1.0.2></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/simple-slider/js/simple-slider.js?v= 1.0.2></script>
+        <script src=https://ninico.botble.com/vendor/core/core/js-validation/js/js-validation.js?v= 1.0.1></script>
+        <script>
+            jQuery(document).ready(function() {
+                'use strict';
+                $("#botble-newsletter-forms-fronts-newsletter-form").each(function() {
+                    $(this).validate({
+                        errorElement: 'div',
+                        errorClass: 'invalid-feedback',
+                        errorPlacement: function(error, element) {
+                            if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) {
+                                error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]'));
+                            } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') {
+                                error.insertAfter(element.parent());
+                            } else if ($(element).data('select2')) {
+                                error.insertAfter(element.next('span'));
+                            } else {
+                                error.insertAfter(element);
+                            }
+                        },
+                        highlight: function(element) {
+                            $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid');
+                        },
+                        unhighlight: function(element) {
+                            $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid');
+                        },
+                        success: function(element) {
+                            $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid');
+                        },
+                        focusInvalid: false,
+                        rules: JSON.parse('{\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The email must be a valid email address.\u0022,false]],\u0022laravelValidationRemote\u0022:[[\u0022Unique\u0022,[\u0022email\u0022,\u0022eyJpdiI6IlgxMGdSU2J5aXl2cDY0dHlzWHlIWEE9PSIsInZhbHVlIjoiUWJ1QUlEWjlSU3Zwc1BoaUsvTGdrSmY2M25PeXNHaHZVSzBRbnB1Vi9YVUNUclNGbHdRcTBieXhTQURIY0RTZlM3M21oQ0RpVmUzK0lNbVlJY2tDQ0E9PSIsIm1hYyI6ImMzZTljZWNiMmY1MmZiN2FlZjM3NTQ0N2RkMzJhY2Y5YzY1ZjNlMjZlMTk3ZDE5YTMxOWQ0OTk0YWE0OWY0YmEiLCJ0YWciOiIifQ==\u0022,false],\u0022The email has already been taken.\u0022,false]]},\u0022status\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022subscribed\u0022,\u0022unsubscribed\u0022],\u0022The selected status is invalid.\u0022,false]]}}')
+                    });
+                });
+            });
+        </script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/language/js/language-public.js?v= 2.2.0></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/cookie-consent/js/cookie-consent.js?v= 1.0.2></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/sale-popup/js/sale-popup.js?v= 1.0.0></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/newsletter/js/newsletter.js></script>
+        <script async defer src='https://www.googletagmanager.com/gtag/js?id=G-76NX8HY29D'></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-76NX8HY29D');
+        </script>
+        <script src=https://ninico.botble.com/vendor/core/packages/theme/js/toast.js></script>
+        <script src=https://ninico.botble.com/vendor/core/plugins/announcement/js/announcement.js></script>
+        <script>
+            var lazyLoadShortcodeBlocks = function() {
+                $('.shortcode-lazy-loading').each(function(index, element) {
+                    var $element = $(element);
+                    var name = $element.data('name');
+                    var attributes = $element.data('attributes');
+                    $.ajax({
+                        url: 'https://ninico.botble.com/ajax/render-ui-blocks',
+                        type: 'POST',
+                        data: {
+                            name,
+                            attributes: {
+                                ...attributes,
+                            },
+                        },
+                        headers: {
+                            'X-CSRF-TOKEN': 'op0Fj5s8M6yXuDdZPLkaczDqXtZp6ePuq8LFYOMM'
+                        },
+                        success: function({error, data}) {
+                            if (error) {
+                                return;
+                            }
+                            $element.replaceWith(data);
+                            document.dispatchEvent(new CustomEvent('shortcode.loaded',{
+                                detail: {
+                                    name,
+                                    attributes,
+                                    html: data,
+                                }
+                            }));
+                        },
+                    });
+                });
+            };
+            window.addEventListener('load', function() {
+                lazyLoadShortcodeBlocks();
+            });
+        </script>
+        <div class="js-cookie-consent cookie-consent cookie-consent-full-width page_speed_1810463683">
+            <div class="cookie-consent-body page_speed_1896222129">
+                <span class="cookie-consent__message">Your experience on this site will be improved by allowing cookies. </span>
+                <button class="js-cookie-consent-agree cookie-consent__agree page_speed_1773715850">Allow cookies </button>
+            </div>
+        </div>
+        <div data-site-cookie-name="cookie_for_consent"></div>
+        <div data-site-cookie-lifetime="7300"></div>
+        <div data-site-cookie-domain="ninico.botble.com"></div>
+        <div data-site-session-secure=""></div>
+        <div class="js-sale-popup-container hidden" data-include="https://ninico.botble.com/ajax/sale-popup/products"></div>
+        <script src=https://ninico.botble.com/vendor/core/packages/theme/js/toast.js></script>
+    </body>
+
