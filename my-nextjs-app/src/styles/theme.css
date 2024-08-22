@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #d51243;
+    --primary-color-rgb: 213,18,67;
+    --primary-font: 'Jost', sans-serif;
+}
+
+:root {
+    --primary-font: "Jost", sans-serif;
+}
+
+/* Include other CSS rules from your HTML, excluding page-speed.css rules */
